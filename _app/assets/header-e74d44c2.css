@@ -1,0 +1,1 @@
+header.svelte-1sbnu7r{display:grid;grid-template-areas:"title nav" "hr hr"}.svelte-1sbnu7r::slotted{grid-area:title}nav{grid-area:nav;display:flex;justify-content:right;align-items:flex-end}nav>a{display:inline-block;margin:10px}hr.svelte-1sbnu7r{grid-area:hr;margin-bottom:40px}
