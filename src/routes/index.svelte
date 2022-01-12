@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Header from '../components/header.svelte';
+	import Header from '$lib/header.svelte';
 	import Links from './_links.svelte';
 </script>
 

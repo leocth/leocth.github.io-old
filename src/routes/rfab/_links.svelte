@@ -1,11 +1,9 @@
-<links>
-	<li>
-		<a href="/projects">↸ back to projects</a>
-	</li>
-	<li>
-		<a href="/rfab/what">what?</a>
-	</li>
-	<li>
-		<a href="/rfab/progress">how's it going?</a>
-	</li>
-</links>
+<script lang="ts">
+	import { base } from '$app/paths';
+</script>
+
+<nav>
+	<a sveltekit:prefetch href="{base}/projects">↸ back to projects</a>
+	<a sveltekit:prefetch href="{base}/rfab/what">what?</a>
+	<a sveltekit:prefetch href="{base}/rfab/progress">how's it going?</a>
+</nav>

@@ -11,12 +11,13 @@ const config = {
 
 	kit: {
 		adapter: adapter(),
-		paths: {
-			base: dev ? '' : '/leocth.github.io',
-		},
+		// paths: {
+		// 	base: dev ? '' : '/leocth.github.io',
+		// },
 
 		// hydrate the <div id="svelte"> element in src/app.html
-		target: '#svelte'
+		target: '#svelte',
+		appDir: 'wtf_github'
 	}
 };
 

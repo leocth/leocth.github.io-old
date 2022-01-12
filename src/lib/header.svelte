@@ -13,13 +13,13 @@
 	::slotted {
 		grid-area: title;
 	}
-	:global(links) {
+	:global(nav) {
 		grid-area: nav;
 		display: flex;
 		justify-content: right;
 		align-items: flex-end;
 	}
-	:global(links > li) {
+	:global(nav > a) {
 		display: inline-block;
 		margin: 10px;
 	}

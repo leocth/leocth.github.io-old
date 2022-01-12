@@ -1,11 +1,9 @@
-<links>
-	<li>
-		<a href="/">home</a>
-	</li>
-	<li>
-		<a href="/projects">projects</a>
-	</li>
-	<li>
-		<a href="/contact">contact</a>
-	</li>
-</links>
+<script lang="ts">
+	import { base } from '$app/paths';
+</script>
+
+<nav>
+	<a sveltekit:prefetch href="{base}/">home</a>
+	<a sveltekit:prefetch href="{base}/projects">projects</a>
+	<a sveltekit:prefetch href="{base}/contact">contact</a>
+</nav>

@@ -1,7 +1,7 @@
 <script lang="ts">
-	import Header from '../components/header.svelte';
+	import Header from '$lib/header.svelte';
 	import Links from './_links.svelte';
-	import BotsPlsGoAway from '../components/bots_pls_go_away.svelte';
+	import BotsPlsGoAway from '$lib/bots_pls_go_away.svelte';
 </script>
 
 <Header>

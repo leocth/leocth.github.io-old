@@ -1,7 +1,7 @@
 <script lang="ts">
-	import Header from '../components/header.svelte';
+	import Header from '$lib/header.svelte';
 	import Links from './_links.svelte';
-	import ProjectCard from '../components/project_card.svelte';
+	import ProjectCard from '$lib/project_card.svelte';
 </script>
 
 <Header>
