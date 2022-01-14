@@ -36,4 +36,9 @@
 		--font-monospace: 'Sarasa Mono SC', 'JetBrains Mono', 'Fira Code', 'Noto Sans Mono', 'Consolas',
 			monospace;
 	}
+	:global(j) {
+		color: #777;
+		font-weight: lighter;
+		font-style: italic;
+	}
 </style>

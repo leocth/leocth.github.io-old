@@ -1,30 +1,18 @@
-<header>
-	<slot />
-</header>
-<hr />
+<!-- <script>
+	import { base } from '$app/paths';
 
-<style>
-	header {
-		display: grid;
-		grid-template-areas:
-			'title nav'
-			'hr hr';
+	export let posts;
+
+	function processPath(path) {
+		console.log(path);
+		return path == './index.md' ? '' : path.replace('.md', '');
 	}
-	::slotted {
-		grid-area: title;
-	}
-	:global(nav) {
-		grid-area: nav;
-		display: flex;
-		justify-content: right;
-		align-items: flex-end;
-	}
-	:global(nav > a) {
-		display: inline-block;
-		margin: 10px;
-	}
-	hr {
-		grid-area: hr;
-		margin-bottom: 40px;
-	}
-</style>
+</script>
+
+<nav>
+	{#each posts as { path, metadata: { title } }}
+		<a sveltekit:prefetch href={`${base}/${processPath(path)}`}>{title}</a>
+	{/each}
+</nav>
+<hr />
+<slot /> -->

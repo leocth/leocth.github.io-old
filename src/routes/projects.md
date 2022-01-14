@@ -1,13 +1,11 @@
+---
+title: projects
+lastUpdated: 2022-01-14
+---
+
 <script lang="ts">
-	import Header from '$lib/header.svelte';
-	import Links from './_links.svelte';
 	import ProjectCard from '$lib/project_card.svelte';
 </script>
-
-<Header>
-	<h1>projects</h1>
-	<Links />
-</Header>
 
 <h2 id="active">· active</h2>
 <cards>
@@ -154,8 +152,7 @@
 		<p slot="body">
 			An extremely small, one-mixin mod that replaces the constants Minecraft used in their
 			<a href="https://en.wikipedia.org/wiki/Fast_inverse_square_root"
-				>fast reciprocal square root</a
-			> method, with supposedly more accurate alternatives.
+				>fast reciprocal square root</a> method, with supposedly more accurate alternatives.
 		</p>
 		<ul slot="footer">
 			<li>
